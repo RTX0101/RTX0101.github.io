@@ -1,0 +1,66 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  #CED0CE;
+}
+
+h3{
+    color: grey;
+    text-align: center;
+}
+
+.container-main{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    box-shadow:10px 5px 5px #3AC5CF;
+    
+}
+
+.container-login{
+    top: 50%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+}
+
+.input-email{
+    margin: 5px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 8px;
+}
+.input-pass{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    
+}
+
+.button-login{
+    margin: 5px;
+    width: 180px;
+    padding: 5px;
+    border-radius:8px;
+    color:white;
+    background-color:#3AC5CF;
+
+}
+
+.imagem-logo{
+    margin: 50px;
+    
+}
+
+.link{
+    color: grey;
+    font-size: 10px;
+    margin: 40px;
+    text-decoration: none; 
+}
+
